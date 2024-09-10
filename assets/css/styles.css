@@ -1,4 +1,4 @@
-/* General Styling */
+ /* General Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -48,8 +48,8 @@ nav ul li a:hover {
 /* Header */
 header {
     display: flex;
-    justify-content: space-between; /* Align text to the left and image to the right */
-    align-items: center; /* Vertically center both */
+    justify-content: space-between;
+    align-items: center;
     background-color: #2a2a2a;
     color: white;
     padding: 20px 60px;
@@ -67,14 +67,15 @@ header h1 {
 /* Style for the banner container */
 .banner {
     display: flex;
-    justify-content: center; /* Center the image horizontally */
-    align-items: center; /* Vertically center the image */
-    width: 200px; /* Set a specific width to control image size */
+    justify-content: center;
+    align-items: center;
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
 }
 
 .banner img {
-    width: 100%; /* Make the image take up the full width of the container */
-    height: auto;
+    max-height: 100%; /* Keep the image height at 150px or less */
+    width: auto; /* Maintain aspect ratio */
 }
 
 /* Main Section */
