@@ -156,11 +156,13 @@ footer {
     .aboutmeimg{
         max-width: 95%;
         align-items: center;
+        margin: auto;
     }
 
     .aboutmeimg img{
     width: 95%; 
     align-items: center;
+    margin:auto;
     }
     main {
         max-width: 100%;
