@@ -122,6 +122,10 @@ footer {
     max-width: 75%;
 }
 
+.aboutmeimg img{
+    width: 100%; 
+    }
+
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
