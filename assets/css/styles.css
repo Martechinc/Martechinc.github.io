@@ -154,16 +154,16 @@ footer {
     }
 
     .aboutmeimg{
-        max-width: 100%;
+        max-width: 95%;
     }
 
     .aboutmeimg img{
-    width: 100%; 
+    width: 95%; 
     }
     main {
         max-width: 100%;
         margin: 0px auto;
-        padding: 0px;
+        padding: 10px;
         background-color: #2e2e2e;
         border: 1px solid #444;
         border-radius: 10px;
