@@ -155,10 +155,12 @@ footer {
 
     .aboutmeimg{
         max-width: 95%;
+        align-content: center;
     }
 
     .aboutmeimg img{
     width: 95%; 
+    align-content: center;
     }
     main {
         max-width: 100%;
