@@ -154,15 +154,15 @@ footer {
     }
 
     .aboutmeimg{
-        max-width: 95%;
+        max-width: 100%;
         align-items: center;
         margin: auto;
     }
 
     .aboutmeimg img{
-    width: 95%; 
-    align-items: center;
-    margin:auto;
+        width: 100%; 
+        align-items: center;
+        margin:auto;
     }
     main {
         max-width: 100%;
