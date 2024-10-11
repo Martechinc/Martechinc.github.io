@@ -128,7 +128,39 @@ footer {
     width: 100%; 
     align-content: center;
     }
+    
+/* Styling for Project Requirements Section */
+.project-requirements {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    background-color: #3a3a3a;
+    border: 1px solid #444;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
 
+.project-requirements li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+
+.project-requirements li:last-child {
+    border-bottom: none;
+}
+
+.project-requirements li strong {
+    color: #e0e0e0;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.project-requirements li:hover {
+    background-color: #444;
+}
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
@@ -177,3 +209,4 @@ footer {
         color: #e0e0e0;
     }
 }
+
