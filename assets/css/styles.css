@@ -161,6 +161,13 @@ footer {
 .project-requirements li:hover {
     background-color: #444;
 }
+.logowithcircle img {
+    width: 40%;
+}
+.logowithcircle {
+    width: 40%;
+    margin: auto;
+}
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
