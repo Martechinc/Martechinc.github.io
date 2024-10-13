@@ -162,10 +162,10 @@ footer {
     background-color: #444;
 }
 .logowithcircle img {
-    width: 40%;
+    max-width: 40%;
 }
 .logowithcircle {
-    width: 40%;
+    max-width: 40%;
     margin: auto;
 }
 
