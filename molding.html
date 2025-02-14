@@ -1,116 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Molding & Casting Guide - The Filament Company</title>
-    <!-- Using existing CSS from main site -->
-    <link rel="stylesheet" href="styles.css"> 
+    <title>Martec Inc - Molding & Casting Process</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
-    <nav class="nav">
-        <img src="logo.png" alt="The Filament Company" width="200">
-        <div>
-            <a href="/">Products</a>
-            <a href="/">Services</a>
-            <a href="/">Learning</a>
-            <a href="/">Contact</a>
-        </div>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="final_project.html">Final Project</a></li>
+        </ul>
     </nav>
 
-    <header class="hero">
-        <h1>Advanced Molding & Casting Techniques</h1>
-        <p>From 3D Model to Functional Castings: A Technical Guide</p>
+    <!-- Title Banner -->
+    <header>
+        <h1>Martechnologies.inc</h1>
+        <div class="banner">
+            <img src="Martec logo black.jpg" class="banner-image" alt="Martec Logo">
+        </div>
     </header>
 
-    <div class="container">
-        <div class="process-section">
-            <h2>Single-Part Mold Process</h2>
-            <div class="content-block">
-                <h3>Step 1: Model Preparation</h3>
-                <ol class="step-list">
-                    <li>Import 3D model (STL/OBJ) into CAD software</li>
-                    <li>Create negative space using Boolean operations
-                        <ul>
-                            <li>Offset mold walls by 8-10mm for material thickness</li>
-                            <li>Add registration marks for alignment</li>
-                        </ul>
-                    </li>
-                    <li>Design sprue and vent channels for resin flow</li>
-                </ol>
-                
-                <h3>Step 2: Mold Fabrication</h3>
-                <ol class="step-list">
-                    <li>Print mold using high-temperature filament (ABS/ASA)</li>
-                    <li>Apply 3-5 coats of resin release agent (Stoner E226)</li>
-                    <li>Post-process with acetone vapor smoothing</li>
-                </ol>
-            </div>
-        </div>
+    <!-- Body Section -->
+    <main>
+        <section>
+            <h2>Molding and Casting Process</h2>
+            
+            <h3>Single-Part Mold Creation</h3>
+            <ul class="project-requirements">
+                <li>
+                    <strong>3D Model Preparation</strong>
+                    Created a negative of the 3D modeled stamp using CAD software's combine and cut functions
+                </li>
+                <li>
+                    <strong>Mold Design</strong>
+                    Designed an open-back mold structure for single-part casting
+                </li>
+                <li>
+                    <strong>3D Printing</strong>
+                    Printed three separate mold components using FDM printing technology
+                </li>
+            </ul>
 
-        <div class="process-section">
-            <h2>Two-Part Mold Methodology</h2>
-            <div class="content-block">
-                <h3>Dual Cavity Construction</h3>
-                <ol class="step-list">
-                    <li>Split original model along optimal parting line
-                        <ul>
-                            <li>Analyze undercuts using draft analysis tools</li>
-                            <li>Offset split plane by 0.5mm for gasket effect</li>
-                        </ul>
-                    </li>
-                    <li>Create alignment pins and sockets
-                        <ul>
-                            <li>3mm diameter pins spaced 25mm apart</li>
-                            <li>0.2mm clearance for thermal expansion</li>
-                        </ul>
-                    </li>
-                </ol>
+            <h3>Two-Part Mold Process</h3>
+            <ul class="project-requirements">
+                <li>
+                    <strong>Mold Segmentation</strong>
+                    Split the original negative design into two complementary components
+                </li>
+                <li>
+                    <strong>Interlocking Features</strong>
+                    Added alignment pins and registration marks for precise part matching
+                </li>
+                <li>
+                    <strong>Modular Printing</strong>
+                    Printed separate mold halves with integrated pouring channels
+                </li>
+            </ul>
 
-                <h3>Casting Procedure</h3>
-                <ol class="step-list">
-                    <li>Pre-heat molds to 40°C (104°F)</li>
-                    <li>Mix resin components (1A:1B by volume)
-                        <ul>
-                            <li>Stir for 2 minutes minimum</li>
-                            <li>Degas in vacuum chamber at 25Hg</li>
-                        </ul>
-                    </li>
-                    <li>Pour resin through sprue at 45° angle</li>
-                    <li>Clamp mold halves with 15psi pressure</li>
-                </ol>
-            </div>
-        </div>
+            <h3>Casting Procedure</h3>
+            <ul class="project-requirements">
+                <li>
+                    <strong>Surface Preparation</strong>
+                    Applied multiple coats of resin release agent to prevent adhesion
+                </li>
+                <li>
+                    <strong>Resin Mixing</strong>
+                    Combined equal parts Part A and Part B polyurethane resin
+                </li>
+                <li>
+                    <strong>De-airation Process</strong>
+                    Used pressure pot to remove bubbles from viscous resin mixture
+                </li>
+                <li>
+                    <strong>Curing Cycle</strong>
+                    Allowed 24-hour cure time at room temperature (72°F/22°C)
+                </li>
+            </ul>
 
-        <div class="warning-note">
-            <h3>Critical Failure Analysis</h3>
-            <p>Post-casting challenges encountered:</p>
-            <ol class="step-list">
-                <li><strong>Adhesion Failure:</strong> PLA mold Tg point (60°C) vs resin cure temp (85°C)</li>
-                <li><strong>Differential Shrinkage:</strong> 0.6% resin shrinkage caused mechanical locking</li>
-                <li><strong>Surface Texture:</strong> Printed layer lines created micro-anchors</li>
-            </ol>
-            <p><strong>Successful Resolution:</strong> Transitioned to PETG molds with PTFE spray coating achieved 95% release success rate</p>
-        </div>
+            <h3>Challenges & Learnings</h3>
+            <ul class="project-requirements">
+                <li>
+                    <strong>Mold Release Issues</strong>
+                    Despite release agent use, cured resin bonded strongly to PLA molds
+                </li>
+                <li>
+                    <strong>Thermal Separation Attempt</strong>
+                    Heated molds to 60°C (above resin's Tg) without successful separation
+                </li>
+                <li>
+                    <strong>Material Compatibility</strong>
+                    Learned PLA's porosity may require silicone intermediate molds
+                </li>
+                <li>
+                    <strong>Process Improvements</strong>
+                    Future plans include using mold putty for higher success rate
+                </li>
+            </ul>
 
-        <div class="process-section">
-            <h2>Technical Specifications</h2>
-            <div class="content-block">
-                <ul class="step-list">
-                    <li><strong>Mold Material:</strong> Prusament PETG (0.15mm layer height)</li>
-                    <li><strong>Casting Resin:</strong> Smooth-On Sorta-Clear 37</li>
-                    <li><strong>Cure Parameters:</strong> 4hr @ 25°C or 45min @ 65°C</li>
-                    <li><strong>Surface Prep:</strong> 320 grit sanding + SEMSOOTH coating</li>
-                </ul>
-            </div>
-        </div>
-
-        <a href="/troubleshooting" class="button">Troubleshooting Guide</a>
-    </div>
-
-    <footer>
-        <p>© 2023 The Filament Company. All rights reserved.</p>
-        <p>Safety Notice: Always use PPE when handling uncured resins</p>
-    </footer>
+            <h3>Key Technical Specifications</h3>
+            <ul class="project-requirements">
+                <li>Resin Type: Polyurethane Casting Resin (1:1 mix ratio)</li>
+                <li>Print Material: PLA+ (0.15mm layer height)</li>
+                <li>Cure Time: 24 hours @ 72°F</li>
+                <li>Release Agent: PTFE-based aerosol spray</li>
+                <li>Mold Wall Thickness: 8mm uniform</li>
+            </ul>
+        </section>
+    </main>
 </body>
 </html>
